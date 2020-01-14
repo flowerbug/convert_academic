@@ -1,9 +1,9 @@
-Sat 07 Dec 2019 10:02:01 AM EST
+Tue 14 Jan 2020 02:51:13 PM EST
 
 
 # General Information
 
-  convert_academic is a bash script which will convert an ancient hugo academic site to a more recent version.  I am not sure when or with what version of hugo academic theme where the breaking changes were first introduced so I'm not sure how far back in time or what specific early versions of the academic theme this script may work for.  For my own uses this script works with the version of hugo academic theme I started with in early-mid 2017.
+  convert_academic is a bash script which will convert an ancient hugo academic site to a more recent version.  I am unable to specify which early versions of the academic theme this script may work for as a default, but for my own uses this script works with the version of hugo academic theme I started with in early-mid 2017.
 
   It only converts projects and posts, but the method used in the script can be adapted to other sections if you have enough of them it may be worth using as a template.
 
@@ -12,6 +12,8 @@ Sat 07 Dec 2019 10:02:01 AM EST
   Read through the script it is largely meant to be self evident and self documented.  The LICENSE file is provided to make sure you have the full text of that.
 
   Some parameters are set up for the defaults of how I use it here.  You can edit to adjust them to suit your own set up.
+
+  The approach used in this script can be adapted to convert any version of the hugo academic theme to another as long as you can identify which changes in what files need to be made.
 
 
 # To Install for a Linux/Posix Type System
@@ -35,4 +37,4 @@ Sat 07 Dec 2019 10:02:01 AM EST
 
   I am not supporting this for a living.  Any bugs or issues may take some time for me to get fixed.  The only way I will ever be on someone else's schedule would involve rather large sums of $.  That said you may contact me at flowerbug@anthive.com or post an issue to the tracker.  When gardening season is underway I may not check the tracker for some time.  If you think of sending a bug report please check first to be sure that you are using the most recent hugo version, the most recent academic theme version and then also be sure to include the files which are causing errors.
 
-  In the end though, it may be something you have to figure out for yourself.  This script is only meant to be a helper and a starting point, there may be other things you need to change or convert besides what I've done (I don't use all the features of posts or projects).
+  In the end though, it may be something you have to figure out for yourself.  This script is only meant to be a helper and a starting point, there may be other things you need to change or convert besides what I've done (I don't use all the features of posts or projects or all of the widgets of the academic theme).
